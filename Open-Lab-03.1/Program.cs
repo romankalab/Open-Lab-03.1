@@ -6,7 +6,13 @@ namespace Open_Lab_03._1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[,] array = new string[,]
+            {
+                {"cat", "dog", "fish"},
+                {"bird", "elephant", "frog"},
+            };
+
+            Console.WriteLine(array[1, 2]);
         }
     }
 }
